@@ -89,7 +89,7 @@ REQUIRES = [
     'nilearn',
     'nipype>=1.1.6',
     'nitime',
-    'niworkflows',
+    'niworkflows>=0.7.2',
     'numpy',
     'pandas',
     'psutil>=5.4',
@@ -104,8 +104,6 @@ REQUIRES = [
 
 
 LINKS_REQUIRES = [
-    'git+https://github.com/poldracklab/niworkflows.git@'
-    'b97787ee2f1b93cafb104664b60fa0c4fd81253a#egg=niworkflows-0.7.1',
 ]
 
 TESTS_REQUIRES = [
